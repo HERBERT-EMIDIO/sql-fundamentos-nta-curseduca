@@ -1,0 +1,16 @@
+# Ambientes e artefatos locais
+.venv/
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+*.log
+
+# Dados locais / dumps
+*.dump
+*.backup
+data/raw/
+*.csv
+!docs/**/*.csv
